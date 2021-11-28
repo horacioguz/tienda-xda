@@ -1,0 +1,11 @@
+input {
+    margin-top: .5rem;
+    width: 100%;
+    height: 2rem;
+}
+
+@media (min-width: 768px) {
+    input {
+        width: 80%;
+    }
+}

@@ -1,0 +1,25 @@
+/* Main Reset
+   ========================================================================== */
+/**
+* Hace que los todos elementos del documento se calculen usando la propiedad box-sizing: border-box;
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+
+}
+body {
+  font-family: $raleway;
+  margin: 0;
+}
+/**
+/**
+* Previene el desbordamiento de las imágenes del documento
+*/
+img {
+  max-width: 100%;
+}
